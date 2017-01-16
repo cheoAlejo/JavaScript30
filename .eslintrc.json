@@ -1,0 +1,24 @@
+{
+    "parser": "espree",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "script",
+        "ecmaFeatures": {
+            "globalReturn": false,
+            "impliedStrict": false,
+            "jsx": false
+        }
+    },
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+
+    "rules": {
+        "semi": ["error", "always"],
+        "no-dupe-args": ["error"],
+        "no-dupe-keys": ["error"],
+        "no-duplicate-case": ["error"]
+
+    }
+}
