@@ -8,7 +8,7 @@ var fs           = require('fs');
 
 
 // # Rutas
-var DEV_DIR = '.';
+var DEV_DIR = '04 - Array Cardio Day 1';
 
 
 
@@ -53,8 +53,8 @@ gulp.task('browserSync', function () {
 
 gulp.task('watch', ['browserSync'], function () {
     gulp.watch(DEV_DIR   + '/**/*.html', logChangedFile);
-    gulp.watch(CSS_DIR   + '/**/*.css', logChangedFile);
-    gulp.watch(JS_DIR   + '/**/*.js',   logChangedFile);
+    gulp.watch(DEV_DIR   + '/**/*.css', logChangedFile);
+    gulp.watch(DEV_DIR   + '/**/*.js',   logChangedFile);
 });
 
 
